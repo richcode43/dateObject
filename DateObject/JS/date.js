@@ -64,7 +64,7 @@ if (exitDate === presentDate) {
 //     }
 // }, 1000);
 
-var countDownDate = new Date("sep 14, 2021 00:40").getTime();
+var countDownDate = new Date("sep 14, 2021 01:50").getTime();
 
 // Update the count down every 1 second
 let count = setInterval(function() {
@@ -86,7 +86,7 @@ let count = setInterval(function() {
         minutes + "m " + seconds + "s ";
 
     // If the count down is over, write some text 
-    if (distance < 0) {
+    if (diff < 0) {
         clearInterval(count);
         document.getElementById("demo").innerHTML = "EXPIRED";
     }
