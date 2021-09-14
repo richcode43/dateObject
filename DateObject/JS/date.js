@@ -88,6 +88,6 @@ let count = setInterval(function() {
     // If the count down is over, write some text 
     if (diff < 0) {
         clearInterval(count);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "PAYMENT TIME HAS ELASPED.";
     }
 }, 1000);
